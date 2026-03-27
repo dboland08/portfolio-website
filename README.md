@@ -1,1 +1,1 @@
-# portfolio website to list persoanl qualifications and show front-end development skills
+# portfolio website to display qualifications and show front-end development skills
