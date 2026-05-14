@@ -1,4 +1,6 @@
 import Image from "next/image";
+import "../lib/home.css"
+import "../lib/utils.css"
 
 export default function Home() {
   return (
@@ -8,7 +10,7 @@ export default function Home() {
         I enjoy gridning out leetcodes, pulling all nighters trying to learn new frameworks
         and learning as much as possible about writing clean effecient code.
       </p>
-      <button>My GitHub</button>
+      <button className="btn">My GitHub</button>
     </div>
   );
 }

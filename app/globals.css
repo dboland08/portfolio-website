@@ -10,6 +10,10 @@
   --color-green: oklch(72.3% 0.219 149.579);
   --background: var(--color-light);
   --foreground: var(--color-dark);
+
+  /* green: 	rgb(0, 201, 80) */
+  /* blue:  	rgb(21, 93, 252) */
+
 }
 
 @theme inline {}
@@ -27,11 +31,3 @@ body {
   font-family: 'Switzer', sans-serif;
 }
 
-button {
-  background-color: var(--color-green);
-  color: var(--color-light);
-  font-weight: 600;
-  padding: 0.5em 1em;
-  border-radius: 5px;
-  cursor: pointer;
-}
