@@ -2,10 +2,10 @@
 
 :root {
   --color-light: oklch(92% 0.004 286.32);
-  --color-dark: oklch(14.1% 0.005 285.823);
-  --color-zinc400: oklch(70.5% 0.015 286.067);
-  --color-zinc600: oklch(44.2% 0.017 285.786);
-  --color-zinc800: oklch(27.4% 0.006 286.033);
+  --color-dark: oklch(13% 0.028 261.692);
+  --color-gray400: oklch(70.7% 0.022 261.325);
+  --color-gray600: oklch(44.6% 0.03 256.802);
+  --color-gray800: oklch(27.8% 0.033 256.848);
   --color-blue: oklch(54.6% 0.245 262.881);
   --color-green: oklch(72.3% 0.219 149.579);
   --background: var(--color-light);
@@ -23,13 +23,15 @@
 
 body {
   background: var(--background);
-  color: var(--foreground)
+  color: var(--foreground);
+  font-family: 'Switzer', sans-serif;
 }
 
 button {
   background-color: var(--color-green);
-  color: var(--color-dark);
+  color: var(--color-light);
   font-weight: 600;
   padding: 0.5em 1em;
   border-radius: 5px;
+  cursor: pointer;
 }
