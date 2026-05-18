@@ -31,3 +31,9 @@ body {
   font-family: 'Switzer', sans-serif;
 }
 
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
