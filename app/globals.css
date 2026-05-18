@@ -37,3 +37,11 @@ svg {
   user-select: none;
 }
 
+button {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}

@@ -1,0 +1,33 @@
+.hero {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.hero__img {
+    display: inline;
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+}
+
+.hero__subtitle {
+    color: var(--color-gray800);
+    font-size: medium;
+}
+.hero__title {
+    color: var(--color-light);
+    text-transform: uppercase;
+    font-size: xx-large;
+}
+
+.hero__description {
+    color: var(--color-gray400);
+    font-size: medium;
+    margin-right: 10%;
+    margin-left: 10%;
+}
