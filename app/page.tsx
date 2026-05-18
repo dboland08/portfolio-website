@@ -3,6 +3,7 @@ import "../lib/home.css"
 import "../lib/utils.css"
 import "../components/header.css"
 import "../components/hero.css"
+import "../components/links.css"
 
 export default function Home() {
   return (
@@ -32,7 +33,7 @@ export default function Home() {
             </li>
           </ul>
           <button className="header__bar">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-6">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
               <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12H12m-8.25 5.25h16.5" />
             </svg>
 
@@ -43,15 +44,19 @@ export default function Home() {
       </header>
       <main>
         <section className=" hero container">
-          <img className="hero__img" src="/face.png" alt="profile pciture"/>
+          <img className="hero__img" src="/face.png" alt="profile pciture" />
           <h2 className="hero__subtitle">Hi, I'm Daniel Boland</h2>
           <h1 className="hero__title">Full-Stack Software Engineer</h1>
           <p className="hero__description">I am a Computer Science graduate from the University of Akron.
             I enjoy gridning out leetcodes, pulling all nighters trying to learn new frameworks
             and learning as much as possible about writing clean effecient code.
           </p>
-          <button className="btn">My GitHub</button>
         </section>
+        <section className="links container">
+        <button className="btn">GitHub</button>
+        <button className="btn">LinkedIn</button>
+        </section>
+
       </main>
 
     </div>
