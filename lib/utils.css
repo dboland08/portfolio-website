@@ -1,27 +1,39 @@
+/* @media (min-width: 475px) {} */
+
+/* @media (min-width: 640px) {} */
+
+/* @media (min-width: 768px) {} */
+
+/* @media (min-width: 1024x) {} */
+
+/* @media (min-width: 1280px) {} */
+
+/* @media (min-width: 1536px) {} */
+
 .btn {
-  background-color: var(--color-green);
-  color: var(--color-light);
-  font-weight: 600;
-  padding: 0.5em 1em;
-  border-radius: 5px;
-  cursor: pointer;
-  letter-spacing: -0.05em;
-  box-shadow: 0 10px 10px rgb(0, 201, 80, 0.5), 0 5px 5px 
-  rgb(0, 201, 80, 0.5), 0 0 100px -10px var(--color-green);
-  transition: transform 0.3s;
+    background-color: var(--color-green);
+    color: var(--color-light);
+    font-weight: 600;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: -0.05em;
+    box-shadow: 0 10px 10px rgb(0, 201, 80, 0.5), 0 5px 5px rgb(0, 201, 80, 0.5), 0 0 100px -10px var(--color-green);
+    transition: transform 0.3s;
 }
 
 .btn:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .container {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
+
 /* mobile first resposive style using min width */
 @media (min-width: 475px) {
     .container {
