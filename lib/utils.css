@@ -4,7 +4,7 @@
 
 /* @media (min-width: 768px) {} */
 
-/* @media (min-width: 1024x) {} */
+/* @media (min-width: 1024px) {} */
 
 /* @media (min-width: 1280px) {} */
 
@@ -30,8 +30,6 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
 }
 
 /* mobile first resposive style using min width */

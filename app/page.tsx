@@ -46,7 +46,7 @@ export default function Home() {
         <section className=" hero container">
           <img className="hero__img" src="/face.png" alt="profile pciture" />
           <h2 className="hero__subtitle">Hi, I'm Daniel Boland</h2>
-          <h1 className="hero__title">Full-Stack Software Engineer</h1>
+          <h1 className="hero__title">Full-Stack Software <br/> Engineer</h1>
           <p className="hero__description">I am a Computer Science graduate from the University of Akron.
             I enjoy gridning out leetcodes, pulling all nighters trying to learn new frameworks
             and learning as much as possible about writing clean effecient code.
