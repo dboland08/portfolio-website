@@ -17,17 +17,19 @@
 
 .hero__subtitle {
     color: var(--color-gray800);
-    font-size: medium;
+    font-size: var(--size-base);
+    line-height: 0.9;
 }
 .hero__title {
     color: var(--color-light);
     text-transform: uppercase;
-    font-size: xx-large;
+    font-size: var(--size-4xl);
+    line-height: 0.9;
 }
 
 .hero__description {
     color: var(--color-gray400);
-    font-size: medium;
+    font-size: var(--size-base);
     margin-right: 10%;
     margin-left: 10%;
 }

@@ -44,8 +44,8 @@
     .header__sun {
         display: block;
         color: var(--color-gray600);
-        width: 1.5rem;
-        height: 1.5rem;
+        width: var(--size-2xl);
+        height: var(--size-2xl);
     }
 
     .header__bar {
