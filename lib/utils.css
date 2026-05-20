@@ -32,6 +32,10 @@
     margin-right: auto;
 }
 
+.section {
+    margin-top: 5rem;
+}
+
 /* mobile first resposive style using min width */
 @media (min-width: 475px) {
     .container {

@@ -4,6 +4,7 @@ import "../lib/utils.css"
 import "../components/header.css"
 import "../components/hero.css"
 import "../components/links.css"
+import "../components/about.css"
 
 export default function Home() {
   return (
@@ -46,15 +47,47 @@ export default function Home() {
         <section className=" hero container">
           <img className="hero__img" src="/face.png" alt="profile pciture" />
           <h2 className="hero__subtitle">Hi, I'm Daniel Boland</h2>
-          <h1 className="hero__title">Full-Stack Software <br/> Engineer</h1>
+          <h1 className="hero__title">Full-Stack Software <br /> Engineer</h1>
           <p className="hero__description">I am a Computer Science graduate from the University of Akron.
             I enjoy gridning out leetcodes, pulling all nighters trying to learn new frameworks
             and learning as much as possible about writing clean effecient code.
           </p>
         </section>
         <section className="links container">
-        <button className="btn">GitHub</button>
-        <button className="btn">LinkedIn</button>
+          <button className="btn">GitHub</button>
+          <button className="btn">LinkedIn</button>
+        </section>
+        <section className="about container section">
+          <h1 className="about__title">About</h1>
+          <div className="about__content">
+            <h2 className="about__subtitle">My Life</h2>
+            <p className=".about__description">
+              I recently graduated from the Akron on May 9th,
+              and am currently seeking employment.
+              Currently i find myself  working passionality on personal projects,
+              expanding on my current skills and knowledge.
+            </p>
+            <p className=".about__description">
+              Problem solving has always been my greatest passion,
+              I love playing sudoku, and throughout gradeschool
+              math was my favorite subject.
+              When I took my first computer science course,
+              I was fascinated at how I could create a wroking program that actually did something.
+              I was eager to learn more, since I knew computers had a lot more to them
+              than just writing a simple grade calculator in java.
+            </p>
+            <p className=".about__description">
+              Aside from dev and technology,
+              I enjoy working out and am trying to improve my stength
+              in barbell squat, bench and deadlift.
+              I also am a competetive volleyball player,
+              constantly involved in several leagues
+              and enrolling in tournaments whenever possible
+            </p>
+          </div>
+          <div className="about__skills">
+            <h2 className="about__subtitle">Skills</h2>
+          </div>
         </section>
 
       </main>
