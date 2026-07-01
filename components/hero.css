@@ -26,6 +26,7 @@
     text-transform: uppercase;
     font-size: var(--size-4xl);
     line-height: 0.9;
+    font-weight: 700;
 }
 
 .hero__description {
