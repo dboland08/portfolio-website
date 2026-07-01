@@ -8,7 +8,7 @@
 
 /* Do not display menu on small screens */
 .header__menu {
-    display: none
+    display: none;
 }
 
 /* Mobile menu bar */
