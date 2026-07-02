@@ -87,6 +87,16 @@ export default function Home() {
           </div>
           <div className="about__skills">
             <h2 className="about__subtitle">Skills</h2>
+            <ul className="about__skills-list">
+              <li className="about__skills-item">JavaScript</li>
+              <li className="about__skills-item">TypeScript</li>
+              <li className="about__skills-item">React</li>
+              <li className="about__skills-item">Next.js</li>
+              <li className="about__skills-item">Node.js</li>
+              <li className="about__skills-item">Express.js</li>
+              <li className="about__skills-item">MongoDB</li>
+              <li className="about__skills-item">SQL</li>
+            </ul>
           </div>
         </section>
 
