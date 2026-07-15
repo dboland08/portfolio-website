@@ -60,43 +60,51 @@ export default function Home() {
         <section className="about container section">
           <h1 className="about__title">About</h1>
           <div className="about__content">
-            <h2 className="about__subtitle">My Life</h2>
-            <p className=".about__description">
-              I recently graduated from the Akron on May 9th,
-              and am currently seeking employment.
-              Currently i find myself  working passionality on personal projects,
-              expanding on my current skills and knowledge.
-            </p>
-            <p className=".about__description">
-              Problem solving has always been my greatest passion,
-              I love playing sudoku, and throughout gradeschool
-              math was my favorite subject.
-              When I took my first computer science course,
-              I was fascinated at how I could create a wroking program that actually did something.
-              I was eager to learn more, since I knew computers had a lot more to them
-              than just writing a simple grade calculator in java.
-            </p>
-            <p className=".about__description">
-              Aside from dev and technology,
-              I enjoy working out and am trying to improve my stength
-              in barbell squat, bench and deadlift.
-              I also am a competetive volleyball player,
-              constantly involved in several leagues
-              and enrolling in tournaments whenever possible
-            </p>
-          </div>
-          <div className="about__skills">
-            <h2 className="about__subtitle">Skills</h2>
-            <ul className="about__skills-list">
-              <li className="about__skills-item">JavaScript</li>
-              <li className="about__skills-item">TypeScript</li>
-              <li className="about__skills-item">React</li>
-              <li className="about__skills-item">Next.js</li>
-              <li className="about__skills-item">Node.js</li>
-              <li className="about__skills-item">Express.js</li>
-              <li className="about__skills-item">MongoDB</li>
-              <li className="about__skills-item">SQL</li>
-            </ul>
+            <div className="about__section">
+              <h2 className="about__subtitle">My Life</h2>
+              <p className="about__description">
+                I recently graduated from the Akron on May 9th,
+                and am currently seeking employment.
+                Currently i find myself  working passionality on personal projects,
+                expanding on my current skills and knowledge.
+              </p>
+              <p className="about__description">
+                Problem solving has always been my greatest passion,
+                I love playing sudoku, and throughout gradeschool
+                math was my favorite subject.
+                When I took my first computer science course,
+                I was fascinated at how I could create a wroking program that actually did something.
+                I was eager to learn more, since I knew computers had a lot more to them
+                than just writing a simple grade calculator in java.
+              </p>
+              <p className="about__description">
+                Aside from dev and technology,
+                I enjoy working out and am trying to improve my stength
+                in barbell squat, bench and deadlift.
+                I also am a competetive volleyball player,
+                constantly involved in several leagues
+                and enrolling in tournaments whenever possible
+              </p>
+            </div>
+            <hr className="about__hr" />
+
+            <div className="about__section">
+              <h2 className="about__subtitle">Skills</h2>
+              <div className="about__skills-container">
+                <ul className="about__skills-list">
+                  <li className="about__skills-item">JavaScript</li>
+                  <li className="about__skills-item">TypeScript</li>
+                  <li className="about__skills-item">React</li>
+                  <li className="about__skills-item">Next.js</li>
+                </ul>
+                <ul className="about__skills-list">
+                  <li className="about__skills-item">Node.js</li>
+                  <li className="about__skills-item">Express.js</li>
+                  <li className="about__skills-item">MongoDB</li>
+                  <li className="about__skills-item">SQL</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </section>
 
