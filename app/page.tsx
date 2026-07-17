@@ -52,10 +52,10 @@ export default function Home() {
             I enjoy gridning out leetcodes, pulling all nighters trying to learn new frameworks
             and learning as much as possible about writing clean effecient code.
           </p>
-        </section>
-        <section className="links container">
-          <button className="btn">GitHub</button>
-          <button className="btn">LinkedIn</button>
+          <div className="hero__btn-container">
+            <button className="hero_btn btn">GitHub</button>
+            <button className="hero_btn btn">LinkedIn</button>
+          </div>
         </section>
         <section className="about container section">
           <h1 className="about__title">About</h1>
@@ -96,11 +96,15 @@ export default function Home() {
                   <li className="about__skills-item">TypeScript</li>
                   <li className="about__skills-item">React</li>
                   <li className="about__skills-item">Next.js</li>
-                </ul>
-                <ul className="about__skills-list">
                   <li className="about__skills-item">Node.js</li>
                   <li className="about__skills-item">Express.js</li>
-                  <li className="about__skills-item">MongoDB</li>
+                </ul>
+                <ul className="about__skills-list">
+                  <li className="about__skills-item">HTML</li>
+                  <li className="about__skills-item">CSS</li>
+                  <li className="about__skills-item">C/C++</li>
+                  <li className="about__skills-item">C#</li>
+                  <li className="about__skills-item">Python</li>
                   <li className="about__skills-item">SQL</li>
                 </ul>
               </div>
